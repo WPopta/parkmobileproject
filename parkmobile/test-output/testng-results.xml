@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29398" started-at="2018-04-07T11:45:14Z" finished-at="2018-04-07T11:45:44Z">
+  <suite name="Default suite" duration-ms="41228" started-at="2018-04-08T20:05:41Z" finished-at="2018-04-08T20:06:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29398" started-at="2018-04-07T11:45:14Z" finished-at="2018-04-07T11:45:44Z">
-      <class name="TestNG.LoginTest">
-        <test-method status="PASS" signature="login()[pri:0, instance:TestNG.LoginTest@c038203]" name="login" duration-ms="29357" started-at="2018-04-07T11:45:14Z" finished-at="2018-04-07T11:45:44Z">
+    <test name="Default test" duration-ms="41228" started-at="2018-04-08T20:05:41Z" finished-at="2018-04-08T20:06:22Z">
+      <class name="TestNG.AllTestCases">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.AllTestCases@46d56d67]" name="beforeTest" is-config="true" duration-ms="4992" started-at="2018-04-08T20:05:36Z" finished-at="2018-04-08T20:05:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- TestNG.LoginTest -->
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNG.AllTestCases@46d56d67]" name="test1" duration-ms="15065" started-at="2018-04-08T20:05:41Z" finished-at="2018-04-08T20:05:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNG.AllTestCases@46d56d67]" name="test2" duration-ms="13422" started-at="2018-04-08T20:05:56Z" finished-at="2018-04-08T20:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNG.AllTestCases@46d56d67]" name="test3" duration-ms="12691" started-at="2018-04-08T20:06:10Z" finished-at="2018-04-08T20:06:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.AllTestCases@46d56d67]" name="afterTest" is-config="true" duration-ms="1977" started-at="2018-04-08T20:06:22Z" finished-at="2018-04-08T20:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.AllTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
